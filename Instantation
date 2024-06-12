@@ -1,0 +1,19 @@
+package corejava;
+class Car{
+	String name;
+	int Maxspeed;
+	String color;
+}
+public class CarStudy {
+
+	public static void main(String[] args) {
+		Car s = new Car();
+		s.name = "Buggati";
+		s.Maxspeed = 320;
+		s.color = "Maroon";
+		System.out.println(s.name);
+		System.out.println(s.Maxspeed);
+		System.out.println(s.color);
+	}
+
+}
